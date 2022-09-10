@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nen Type Test</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1 id="title">Nen Type Quiz. 100% Accurate Nen Personality Test</h1>
+            <h2 id="heading_1">Nen Type Quiz Explained</h2>
+            <p id="description">
+                A Nen type quiz or test is a set of questions to determine your Mind Force category. Nen is a technique to manipulate your life energy or Aura. It is a power system you in the Hunter X Hunter series. And its users are called “Nen Users” as opposed to Non-users. The test identifies which of the six Sense types matches your personality.
+            </p>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <form id="survey-form">
+            <!-- Question Field -->
+                <fieldset>
+                    <!-- Question 1 -->
+                    <div class="question">
+                        <p>1.) Let’s start by challenging your Ten skills. Are you ready to take the Hunter test?</p> 
+                        <label for="q1_c1">
+                            <input id="q1_c1" class="inline" type="radio" name="one" value="q1_c1"> Absolutely
+                        </label>
+                        <label for="q1_c2">
+                            <input id="q1_c2" class="inline" type="radio" name="one" value="q1_c2"> Always Ready
+                        </label>
+                        <label for="q1_c3">
+                            <input id="q1_c3" class="inline" type="radio" name="one" value="q1_c3"> Yes
+                        </label>
+                        <label for="q1_c4">
+                            <input id="q1_c4" class="inline" type="radio" name="one" value="q1_c4"> Almost Ready
+                        </label>
+                    </div>
+                    <!-- Question 2 -->
+                    <div class="question">
+                        <p>2.) A person who killed your parents is in front of you. But your master says you should not hurt him. What do you do?</p> 
+                        <label for="q2_c1">
+                            <input id="q2_c1" class="inline"type="radio" name="two" value="q2_c1"> I will listen to my master
+                        </label>
+                        <label for="q2_c2">
+                            <input id="q2_c2" class="inline"type="radio" name="two" value="q2_c2"> I wait for a better chance to kill him
+                        </label>
+                        <label for="q2_c3">
+                            <input id="q2_c3" class="inline"type="radio" name="two" value="q2_c3"> I will kill him stealthily
+                        </label>
+                        <label for="q2_c4">
+                            <input id="q2_c4" class="inline"type="radio" name="two" value="q2_c4"> I don't want to kill him anyway
+                        </label>
+                    </div>  
+                    <!-- Question 3 -->
+                    <div class="question">
+                        <p>3.) What comes first? (Answer as a potential Hunter).</p>
+                        <label for="q3_c1">
+                            <input id="q3_c1" class="inline"type="radio" name="three" value="q3_c1"> Success
+                        </label>
+                        <label for="q3_c2">
+                            <input id="q3_c2" class="inline"type="radio" name="three" value="q3_c2"> Family
+                        </label>
+                        <label for="q3_c3">
+                            <input id="q3_c3" class="inline"type="radio" name="three" value="q3_c3"> Skill
+                        </label>
+                        <label for="q3_c4">
+                            <input id="q3_c4" class="inline"type="radio" name="three" value="q3_c4"> Loyality
+                        </label>
+                    </div>
+                    <!-- Question 4 -->
+                    <div class="question">
+                        <p>4.) Who is your favorite Hunter X Hunter character?</p> 
+                        <label for="q4_c1">
+                            <input id="q4_c1" class="inline" type="checkbox" name="q4_c1" value="Gon Freecss"> Gon Freecss
+                        </label>
+                        <label for="q4_c2">
+                            <input id="q4_c2" class="inline" type="checkbox" name="q4_c2" value="Killua Zoldyck"> Killua Zoldyck
+                        </label>
+                        <label for="q4_c3">
+                            <input id="q4_c3" class="inline" type="checkbox" name="q4_c3" value="Hisoka"> Hisoka
+                        </label>
+                        <label for="q4_c4">
+                            <input id="q4_c4" class="inline" type="checkbox" name="q4_c4" value="Kurapika"> Kurapika
+                        </label>
+                        <label for="q4_c5">
+                            <input id="q4_c5" class="inline" type="checkbox" name="q4_c5" value="Neferpitou"> Neferpitou
+                        </label>
+                        <label for="q4_c6">
+                            <input id="q4_c6" class="inline" type="checkbox" name="q4_c6" value="Leorio"> Leorio
+                        </label>
+                    </div>
+                    <!-- Question 5 -->
+                    <div class="question">
+                        <p>5.) Would you leave a loved one behind to achieve the highest potential of your Nen?</p> 
+                        <select id="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                    <!-- Question 6 -->
+                    <div class="question">
+                        <p>5.) Describe why you like Hunter X Hunter.</p> 
+                            <textarea id="anime" name="anime" rows="3" cols="30" placeholder="I like the anime because...."></textarea>
+                    </div>
+                </fieldset>
+                <!-- User Info Field -->
+                <fieldset>
+                    <!-- Name Field -->
+                    <label id="name-label" for="name">
+                    Name <input id="name" type="text" name="name" placeholder="Name" required>
+                    </label>
+                    <!-- Email Field -->
+                    <label id="email-label" for="email">
+                    Email <input id="email" type="email" name="email" placeholder="Email" required>
+                    </label>
+                    <!-- Age Field -->
+                    <label id="number-label" for="number">
+                    Age <input id="number" type="number" name="number" min="10" max="99" placeholder="Age" required>
+                    </label>
+                </fieldset>
+                <!-- Submit Button -->
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </div>
+  </body>
+</html>
